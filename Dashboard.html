@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-<body>
-	<head>
-		<title>Welcome Back!</title>
-			<style> 
+<head>
+	<title>Welcome Back!</title>
+<style> 
+
 @font-face
 {
 font-family: myFirstFont;
-src: url('CarbonBlock.ttf')
-    ,url('Sansation_Light.eot'); /* IE9+ */
+src: url('CarbonBlock.ttf'),
+     url('Sansation_Light.eot'); /* IE9+ */
 }
 
 body
@@ -20,22 +20,21 @@ text-align:center;
 h1,h2
 {
 font-family:myFirstFont;
-	text-align: center;
-	font-size: 50px;
-	display:inline;
+text-align: center;
+font-size: 50px;
+display:inline;
 }
+
 #menu {
 text-align: left;
 width: 200px; 
-  margin: 0 auto; 
-  
-  font-size:20px;
+margin: 0 auto; 
+font-size:20px;
 }
-
-
 
 </style>
 
+<body>
 <h1><font color=#D8BFD8>Hello, thumbtack user!</font></h1>
 
 <h2><font color=#D8BFD8>Your taskboards</font></h2>
@@ -46,9 +45,9 @@ width: 200px;
 <h2><font color=#D8BFD8>Taskboards You're Enrolled In</font></h2>
 	<div id="menu">
 	<ol>
-		<li>ISAT 252</li>
-		<li>University Program Board</li>
-		<li>Madison Motorsports</li>
+		<li><a href="taskboard/taskboard.html">ISAT 252</a></li>
+		<li><a href="#UPB">University Program Board</a></li>
+		<li><a href="#MM">Madison Motorsports</a></li>
 	</ol></div>
 <h2><font color=#D8BFD8>Tasks You've Claimed</font></h2>
 	<div id="menu">
@@ -57,6 +56,6 @@ width: 200px;
 		<li>Make cookies for Reyna</li>
 		<li>Create the creative promo for Les Miserable</li>
 	</ol></div>
-</head>
+<h2><a href="index.html">Sign Out</a></h2>
 </body>
 </html>
