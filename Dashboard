@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Hello, thumbtack user!</h1>
+
+<h2>Your taskboards</h2>
+	<ol>
+		<li>Add a taskboard</li>
+	</ol>
+<h3>Taskboards You're Enrolled In</h3>
+	<ol>
+		<li>ISAT 252</li>
+		<li>University Program Board</li>
+		<li>Madison Motorsports</li>
+	</ol>
+<h4>Tasks You've Claimed</h4>
+
+</body>
+</html>
