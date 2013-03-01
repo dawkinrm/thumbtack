@@ -1,0 +1,49 @@
+@font-face {
+font-family: thumbtackFont;
+src: url('CarbonBlock.ttf');
+}
+
+body {
+text-align: center;
+background-color: #6495ed;
+}
+
+p {
+font-family: thumbtackFont;
+font-size: 100px;
+display: inline;
+}
+
+#taskboard {
+width: 800px;
+height: 500px;
+background-image: url('corkboard.jpg');
+border: 25px solid;
+margin: 0px auto;
+}
+
+#header {
+width: 800px;
+height: 25px;
+background-color: #ffffff;
+}
+
+ul {
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+
+li {
+float: right;
+padding: 2px 5px 0px 10px;
+}
+
+a {
+text-align: center;
+display: block;
+background-color: #ffffff;
+text-decoration: none;
+}
+
+#n
